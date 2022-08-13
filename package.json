@@ -1,0 +1,37 @@
+{
+	"name": "tutorial-bot",
+	"version": "1.0.0",
+	"description": "Este es un bot para el tutorial de DiscordJS con TypeScript",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node-dev src/index.ts",
+		"build": "tsc",
+		"start": "node dist/src/index.js",
+		"postinstall": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andleo17/tutorial-bot-ts.git"
+	},
+	"keywords": [],
+	"author": "andleo",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/andleo17/tutorial-bot-ts/issues"
+	},
+	"homepage": "https://github.com/andleo17/tutorial-bot-ts#readme",
+	"dependencies": {
+		"discord.js": "^13.3.1",
+		"dotenv": "^10.0.0"
+	},
+	"devDependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^16.11.11",
+		"ts-node-dev": "^1.1.8",
+		"typescript": "^4.5.2"
+	},
+	"engines": {
+		"node": ">= 16.0.0",
+		"npm": ">= 8.0.0"
+	}
+}
